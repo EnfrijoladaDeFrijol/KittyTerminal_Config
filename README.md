@@ -1,18 +1,17 @@
-<h1 align="center">Configuración de kitty :cat2:</h1>
+<h1 align="center">Configuración de terminal kitty :cat2:</h1>
 <p align="center">Se mostrará cómo instalar y configurar la terminal kitty.</p>
 
 <h2 align="center">1. Instalación :arrow_down:</h2>
-<p align="justify">Para la instalción de la terminal Kitty hay que tener presente en qué distribución de Linux estamos usando, usremos los siguientes comandos en nuestra terminal:</p>
+<p align="justify">Para la instalción de la terminal Kitty hay que tener presente qué distribución de Linux estamos usando, usremos los siguientes comandos en nuestra terminal:</p>
 
-### Arch (Manjaro)
-```bash
-sudo pacman -S kitty
-```
 ### Debian (Ubuntu, Mint)
 ```bash
 sudo apt install kitty
 ```
-
+### Arch (Manjaro)
+```bash
+sudo pacman -S kitty
+```
 
 <br>
 <h2 align="center">2. Configuración :wrench:</h2>
@@ -31,6 +30,7 @@ cd ~/.config/kitty; touch kitty.conf; ls
 <br>
 
 ### 2.2 Editar el archivo "kitty.conf" :pencil:
+<p>:pushpin: En este mismo repositorio está mi archivo de configuración como ejemplo.</p>
 <p align="justify">Podemos usar cualquier editor de texto de nuestra preferencia para visualizar y configurar el archivo con extensión '.conf' que acabamos de crear.</p>
 
 <p align="justify">Para fines de esta guía se estará usando el editor de texto nano que ya tienen muchas distribuciones de Linux preinstalado. Entonces, para abriri nano vamos a escribir el siguiente comando.</p>
@@ -39,6 +39,17 @@ cd ~/.config/kitty; touch kitty.conf; ls
 nano kitty.conf
 ```
 
+### 2.2.1 Fuente de la letra
 ```conf
-Prueba de pegado y copiado con extensión .conf
+font_family terminus     # Familia de fuentes utilizada
+italic_font auto         # Fuente italica
+bold_italic_font auto    # Control de letra en negrita
+font_size 11.0           # Tamaño de la letra
+```
+
+### 2.2.2 Tema (Colores)
+```conf
+foreground #f8f8f2      # Color del texto
+background #000000      # Color de fondo
+url_color #d65c9d       # Color de los enlaces o URLs
 ```
