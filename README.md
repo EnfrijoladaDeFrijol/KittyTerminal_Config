@@ -31,5 +31,14 @@ cd ~/.config/kitty; touch kitty.conf; ls
 <br>
 
 ### 2.2 Editar el archivo "kitty.conf" :pencil:
-<p align="justify">Podemos usar cualquier editor de texto de nuestra preferencia para visualizar y configurar el archivo cib extensión '.conf' que acabamos de crear.</p>
+<p align="justify">Podemos usar cualquier editor de texto de nuestra preferencia para visualizar y configurar el archivo con extensión '.conf' que acabamos de crear.</p>
 
+<p align="justify">Para fines de esta guía se estará usando el editor de texto nano que ya tienen muchas distribuciones de Linux preinstalado. Entonces, para abriri nano vamos a escribir el siguiente comando.</p>
+
+```bash
+nano kitty.conf
+```
+
+```conf
+Prueba de pegado y copiado con extensión .conf
+```
