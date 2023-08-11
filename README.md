@@ -1,7 +1,7 @@
 <h1 align="center">Configuración de terminal kitty <img src="https://sw.kovidgoyal.net/kitty/_static/kitty.svg" width="40"></h1>
 <p align="center">Se mostrará cómo instalar y configurar la terminal kitty.</p>
 
-<h2 align="center">1. Instalación :arrow_down:</h2>
+<h2 align="center">1. Instalación :inbox_tray:</h2>
 <p align="justify">Para la instalción de la terminal Kitty hay que tener presente qué distribución de Linux estamos usando, usremos los siguientes comandos en nuestra terminal:</p>
 
 ### Debian (Ubuntu, Mint)
@@ -31,9 +31,8 @@ cd ~/.config/kitty; touch kitty.conf; ls
 
 ### 2.2 Editar el archivo "kitty.conf" :pencil:
 <p>:pushpin: En este mismo repositorio está mi archivo de configuración como ejemplo.</p>
-<p align="justify">Podemos usar cualquier editor de texto de nuestra preferencia para visualizar y configurar el archivo con extensión '.conf' que acabamos de crear.</p>
+<p align="justify">Podemos usar cualquier editor de texto de nuestra preferencia para visualizar y editar el archivo con extensión '.conf' que acabamos de crear. Para esta guía se usará el editor nano.</p>
 
-<p align="justify">Para fines de esta guía se estará usando el editor de texto nano que muchas distribuciones de Linux lo tienen preinstalado. Entonces, para abrir nano vamos a escribir el siguiente comando.</p>
 
 ```bash
 nano kitty.conf
@@ -74,9 +73,17 @@ scrollback_lines 2000   # Cantidad de lineas que guarda
 ### 2.2.6 Medidas de la ventana de la terminal
 ```conf
 remember_window_size  no
-initial_window_width  880
-initial_window_height 420
+initial_window_width  880   # Ancho
+initial_window_height 420   # Alto
 
 window_border_width 0.5pt   # Sombreado exterior de la ventana
 draw_minimal_borders yes    # Borde para separar con otras ventanas
 ```
+<h2 align="center">3. Ejemplos propios</h2>
+<p align="justify">Estos ejemplos son configuraciones propias, el detalle es que he incorporado herramientas extra. La finalidad de estos ejemplos es mostrar lo que se puede llegar a lograr con la temrinal kitty.</p>
+<br>
+
+### 3.1 Asuka Terminal (Zsh)
+<div align="center">
+    <img src="img/asukaTerminal.png" alt="Creación de archivo kitty.conf" width=500>
+</div>
