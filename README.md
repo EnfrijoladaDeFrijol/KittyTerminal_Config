@@ -91,3 +91,8 @@ draw_minimal_borders yes    # Borde para separar con otras ventanas
 <div align="center">
     <img src="img/violetTerminal.png" alt="Terminal con Violet Evergarden" width=500>
 </div>
+
+### 3.3 Shantae Terminal (Zsh):
+<div align="center">
+    <img src="img/shantaeTerminal.png" alt="Terminal con Shantae" width=500>
+</div>
