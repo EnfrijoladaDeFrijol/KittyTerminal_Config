@@ -79,11 +79,15 @@ initial_window_height 420   # Alto
 window_border_width 0.5pt   # Sombreado exterior de la ventana
 draw_minimal_borders yes    # Borde para separar con otras ventanas
 ```
-<h2 align="center">3. Ejemplos propios</h2>
+<h2 align="center">3. Ejemplos propios :white_square_button:</h2>
 <p align="justify">Estos ejemplos son configuraciones propias, el detalle es que he incorporado herramientas extra. La finalidad de estos ejemplos es mostrar lo que se puede llegar a lograr con la temrinal kitty.</p>
-<br>
 
-### 3.1 Asuka Terminal (Zsh)
+### 3.1 Asuka Terminal (Zsh):
 <div align="center">
-    <img src="img/asukaTerminal.png" alt="Creación de archivo kitty.conf" width=500>
+    <img src="img/asukaTerminal.png" alt="Terminal con Asuka" width=500>
+</div>
+
+### 3.2 Violet Evergarden Terminal (Zsh):
+<div align="center">
+    <img src="img/violetTerminal.png" alt="Terminal con Violet Evergarden" width=500>
 </div>
