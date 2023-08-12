@@ -79,8 +79,8 @@ initial_window_height 420   # Alto
 window_border_width 0.5pt   # Sombreado exterior de la ventana
 draw_minimal_borders yes    # Borde para separar con otras ventanas
 ```
-<details> 
-    <summary><h2 align="center">3. Ejemplos propios :white_square_button:</h2></summary>
+<details align="center"> 
+    <summary><h2>3. Ejemplos propios :white_square_button:</h2></summary>
     <p align="justify">Estos ejemplos son configuraciones propias, el detalle es que he incorporado herramientas extra. La finalidad de estos ejemplos es mostrar lo que se puede llegar a lograr con la temrinal kitty.</p>
     <h3>3.1 Asuka Terminal (Zsh):</h3>
     <div align="center">
