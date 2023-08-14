@@ -39,6 +39,8 @@ nano kitty.conf
 ```
 
 ### 2.2.1 Fuente de la letra
+<p align="justify">:pushpin: Es muy importante saber que para que estas fuentes sean aplicadas tenemos que tener un direcotrio donde se guardarán nuestras fuentes, por lo general en la siguiente ruta: ~/.'local/share/fonts/'. (Si not enemos esta ruta en nuestra computadora checar el apartado '4. Anexo' de esta guía para crearlo y mover las fuentes ahí mismo)</p>
+
 ```conf
 font_family terminus     # Familia de fuentes utilizada
 italic_font auto         # Fuente italica
