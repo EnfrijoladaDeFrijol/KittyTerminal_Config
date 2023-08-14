@@ -79,6 +79,13 @@ initial_window_height 420   # Alto
 window_border_width 0.5pt   # Sombreado exterior de la ventana
 draw_minimal_borders yes    # Borde para separar con otras ventanas
 ```
+
+### 2.2.7 Al abrir URL's
+```conf
+open_utl_with brave
+```
+
+
 <details align="center"> 
     <summary><h2>3. Ejemplos propios :white_square_button:</h2></summary>
     <p align="justify">Estos ejemplos son configuraciones propias, el detalle es que he incorporado herramientas extra. La finalidad de estos ejemplos es mostrar lo que se puede llegar a lograr con la temrinal kitty.</p>
