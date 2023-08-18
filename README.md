@@ -82,9 +82,9 @@ window_border_width 0.5pt   # Sombreado exterior de la ventana
 draw_minimal_borders yes    # Borde para separar con otras ventanas
 ```
 
-### 2.2.7 Al abrir URL's
+### 2.2.7 Navegador al abrir URL's
 ```conf
-open_utl_with brave
+open_utl_with brave 
 ```
 
 
