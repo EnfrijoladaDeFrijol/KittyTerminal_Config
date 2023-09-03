@@ -13,6 +13,11 @@ sudo apt install kitty
 sudo pacman -S kitty
 ```
 
+### Fedora 
+```bash
+sudo dnf install kitty
+```
+
 <br>
 <h2 align="center">2. Configuración :wrench:</h2>
 <p align="justify">Se tiene que mencionar que esta terminal al momento de ser instalada, no viene con algún archivo de configuración por lo que tiene que ser creado. Así mismo estarán disponibles los comandos que se irán utilizando.</p>
@@ -104,3 +109,7 @@ open_utl_with brave
         <img src="img/shantaeTerminal.png" alt="Terminal con Shantae" width=500>
     </div>
 
+<!--
+<h2 align=center>4. Anexo</h2>
+<p align="justify">En caso de que no veamos reflejados los.</p>
+-->
