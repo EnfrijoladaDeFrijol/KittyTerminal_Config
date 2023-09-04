@@ -1,0 +1,32 @@
+#WARNING - IF YOU DONT HAVE BRAVE BROWSER comment last line
+
+#FONTS
+font_family terminus     # Familia de fuentes utilizada
+italic_font auto         # Fuente italica
+bold_italic_font auto    # Control de letra en negrita
+font_size 11.0           # Tamaño de la letra
+#THEMES
+foreground #f8f8f2      # Color del texto
+background #000000      # Color de fondo
+url_color #d65c9d       # Color de los enlaces o URLs
+
+#CURSOR
+cursor #8fee96          # color del cursor
+cursor_beam_thickness 1.5
+
+#BACKGROUND OPACITY
+term xterm-256color     # Pendiente por documentar...
+background_opacity 0.8  # Opacidad del fondo. Valores entre 0 y 1.
+
+#SCROLLBACK
+scrollback_lines 2000   # Cantidad de lineas que guarda
+
+#SIZE OF WINDOWS
+remember_window_size  no
+initial_window_width  880   # Ancho
+initial_window_height 420   # Alto
+
+#BROWSER
+window_border_width 0.5pt   # Sombreado exterior de la ventana
+draw_minimal_borders yes    # Borde para separar con otras ventanas
+open_utl_with brave 
